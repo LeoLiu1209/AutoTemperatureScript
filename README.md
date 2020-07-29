@@ -6,7 +6,7 @@ This is an auto fill script for for daily self-check Temperature survey.
 ![](/photo/config.gif)
 
 [製作腳本]
-加入動作->網頁->在網頁上執行javascript
+加入動作->網頁->在網頁上執行javascript  
 ![](/photo/addScript.gif)
 
 [腳本內容]
