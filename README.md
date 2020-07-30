@@ -23,7 +23,7 @@ document.getElementsByClassName("question-body clearfix notranslate")[5].getElem
 ```
 
 [如何使用]
-再利用safari打開表單後，按下下方的分享按鈕
+再利用safari打開表單後，按下下方的分享按鈕  
 ![](/photo/surveyPage.jpg)  
 往下滑點選"編輯動作"，將你的腳本加入喜好項目後，就可以直接點選你所命名的腳本名稱  
 ![](/photo/sharePage.jpg)  
