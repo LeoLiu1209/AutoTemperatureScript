@@ -1,7 +1,7 @@
 # AutoTemperatureScript
 This is an auto fill script for for daily self-check Temperature survey.
-[demo]  
-
+[demo]    
+![](/photo/demo.gif)
 
 [設定]
 需先將"在共享工作表中顯示"打開，如此一來在開啟ios的safari的共享的時候才可以看到腳本
