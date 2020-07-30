@@ -1,5 +1,5 @@
 # AutoTemperatureScript
-This is an auto fill script for for daily self-check Temperature survey.
+This is an auto fill script for for daily self-check Temperature survey.  
 [demo]    
 ![](/photo/demo.gif)
 
