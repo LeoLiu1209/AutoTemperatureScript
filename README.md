@@ -1,5 +1,7 @@
 # AutoTemperatureScript
 This is an auto fill script for for daily self-check Temperature survey.
+[demo]  
+
 
 [設定]
 需先將"在共享工作表中顯示"打開，如此一來在開啟ios的safari的共享的時候才可以看到腳本
@@ -21,6 +23,8 @@ document.getElementsByClassName("question-body clearfix notranslate")[5].getElem
 ```
 
 [如何使用]
-再利用safari打開表單後，按下下方的分享按鈕，點選編輯動作，將你的腳本加入喜好項目後
-
-就可以直接點選你所命名的腳本名稱，他就會幫你把標單填完，填完後別忘了檢查一下資料!
+再利用safari打開表單後，按下下方的分享按鈕
+![](/photo/surveyPage.jpg)  
+往下滑點選"編輯動作"，將你的腳本加入喜好項目後，就可以直接點選你所命名的腳本名稱  
+![](/photo/sharePage.jpg)  
+腳本就會把標單填完，填完後別忘了檢查一下在按送出!
