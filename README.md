@@ -22,7 +22,19 @@ document.getElementsByClassName("question-body clearfix notranslate")[3].getElem
 document.getElementsByClassName("question-body clearfix notranslate")[4].getElementsByClassName("radio-button-input")[1].click()
 document.getElementsByClassName("question-body clearfix notranslate")[5].getElementsByClassName("radio-button-input")[0].click()
 ```
-
+[random 說明]  
+```javascript
+/**
+ * Get a random floating point number between `min` and `max`.
+ * 
+ * @param {number} min - min number
+ * @param {number} max - max number
+ * @return {number} a random floating point number
+ */
+function getRandomFloat(min, max) {
+  return Math.random() * (max - min) + min;
+}
+```  
 [如何使用]
 再利用safari打開表單後，按下下方的分享按鈕  
 ![](/photo/surveyPage.jpg)  
