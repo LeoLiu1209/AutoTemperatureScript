@@ -17,7 +17,8 @@ This is an auto fill script for for daily self-check Temperature survey.
 document.getElementsByClassName("question-body clearfix notranslate")[0].getElementsByClassName("radio-button-input")[0].click();
 document.getElementsByClassName("question-body clearfix notranslate")[1].getElementsByTagName("input")[0].value="xxxxxx"
 document.getElementsByClassName("question-body clearfix notranslate")[2].getElementsByClassName("radio-button-input")[0].click()
-document.getElementsByClassName("question-body clearfix notranslate")[3].getElementsByTagName("input")[0].value="35.4"
+let temperature = (Math.random() * (36.9 - 35) + 35).toFixed(1)
+document.getElementsByClassName("question-body clearfix notranslate")[3].getElementsByTagName("input")[0].value=temperature
 document.getElementsByClassName("question-body clearfix notranslate")[4].getElementsByClassName("radio-button-input")[1].click()
 document.getElementsByClassName("question-body clearfix notranslate")[5].getElementsByClassName("radio-button-input")[0].click()
 ```
