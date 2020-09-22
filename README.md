@@ -15,12 +15,15 @@ This is an auto fill script for for daily self-check Temperature survey.
 第二行為工號，請務必記得改!
 ```javascript
 document.getElementsByClassName("question-body clearfix notranslate")[0].getElementsByClassName("radio-button-input")[0].click();
-document.getElementsByClassName("question-body clearfix notranslate")[1].getElementsByTagName("input")[0].value="xxxxxx"
-document.getElementsByClassName("question-body clearfix notranslate")[2].getElementsByClassName("radio-button-input")[0].click()
-let temperature = (Math.random() * (36.9 - 35) + 35).toFixed(1)
+document.getElementsByClassName("question-body clearfix notranslate")[1].getElementsByTagName("input")[0].value="xxxxxx";
+document.getElementsByClassName("question-body clearfix notranslate")[2].getElementsByClassName("radio-button-input")[0].click();
+let temperature = (Math.random() * (36.9 - 35) + 35).toFixed(1);
 document.getElementsByClassName("question-body clearfix notranslate")[3].getElementsByTagName("input")[0].value=temperature
-document.getElementsByClassName("question-body clearfix notranslate")[4].getElementsByClassName("radio-button-input")[1].click()
-document.getElementsByClassName("question-body clearfix notranslate")[5].getElementsByClassName("radio-button-input")[0].click()
+document.getElementsByClassName("question-body clearfix notranslate")[4].getElementsByClassName("radio-button-input")[1].click();
+document.getElementsByClassName("question-body clearfix notranslate")[5].getElementsByClassName("radio-button-input")[0].click();
+
+//Call completion to finish
+completion();
 ```
 [random 說明]  
 ```javascript
